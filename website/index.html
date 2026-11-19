@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Стэйси Белл — Бутик ухода и восстановления волос | Санкт-Петербург</title>
+  <meta name="description" content="Стэйси Белл — бутик-студия кератина, ботокса и холодного восстановления волос в Санкт-Петербурге (ул. Ольги Берггольц, 9, корп. 2). Калькулятор цены, До/После и онлайн-запись." />
+  <meta property="og:title" content="Стэйси Белл — Уход и восстановление волос | СПб" />
+  <meta property="og:description" content="Зеркальная гладкость, кератин, ботокс и восстановление волос премиальными составами. Онлайн-калькулятор, До/После и выбор свободного окна." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:image" content="assets/hero-silk.jpg" />
+  <meta name="theme-color" content="#faf6f0" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23151110'/%3E%3Crect x='3' y='3' width='58' height='58' rx='29' fill='none' stroke='%23E0C49A' stroke-width='2'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Georgia,serif' font-size='25' font-weight='600' fill='%23E0C49A'%3ESB%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Стэйси Белл",
+    "description": "Бутик-студия ухода и восстановления волос: кератин, ботокс, холодное восстановление, пилинг кожи головы в Санкт-Петербурге.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Ольги Берггольц, д. 9, корп. 2",
+      "addressLocality": "Санкт-Петербург",
+      "addressCountry": "RU"
+    },
+    "telephone": "+79145711243",
+    "url": "https://stasy-bell-studio.github.io/stasy-bell-hair-studio/",
+    "priceRange": "₽₽"
+  }
+  </script>
+</head>
+<body>
+  <!-- Translucent Silk Ivory Navigation -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#top" class="brand" aria-label="Стэйси Белл — на главную">
+        <span class="brand-mark">SB</span>
+        <span class="brand-text">
+          <span class="brand-title">Стэйси Белл</span>
+          <span class="brand-sub">Hair Atelier · СПб</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Основная навигация">
+        <a href="#portfolio">До и После</a>
+        <a href="#quiz">Подбор</a>
+        <a href="#calculator">Калькулятор</a>
+        <a href="#services">Прайс</a>
+        <a href="#booking">Свободные окна</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#booking" class="btn btn-primary btn-sm">Записаться</a>
+        <button type="button" class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="4" y1="7" x2="20" y2="7" />
+            <line x1="4" y1="12" x2="20" y2="12" />
+            <line x1="4" y1="17" x2="20" y2="17" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-drawer" id="mobileDrawer">
+      <div class="mobile-drawer-links">
+        <a href="#portfolio">Портфолио До и После</a>
+        <a href="#quiz">Умный подбор за 3 вопроса</a>
+        <a href="#calculator">Калькулятор цены и времени</a>
+        <a href="#services">Прайс-лист</a>
+        <a href="#booking">Выбрать свободное окно</a>
+        <a href="#reviews">Отзывы и FAQ</a>
+        <a href="#contacts">Адрес и контакты</a>
+      </div>
+      <a href="#booking" class="btn btn-primary btn-block">Выбрать свободное окно</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Luminous Editorial Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="hero-badges">
+            <span class="mode-pill" id="dataModeBadge">
+              <span class="dot"></span>
+              <span id="dataModeLabel">Демо-расписание</span>
+            </span>
+            <span class="hero-location">Санкт-Петербург · ул. Ольги Берггольц, 9 к.2</span>
+          </div>
+
+          <h1>Зеркальный <em>шёлк</em> и живое здоровье ваших волос</h1>
+          <p class="hero-lead">
+            Камерная студия кератина, ботокса и холодного восстановления. Подбираем деликатный состав строго под структуру ваших волос, рассчитываем честную цену заранее и записываем напрямую без агрегаторов.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="#booking" class="btn btn-primary">Выбрать свободное окно</a>
+            <a href="#portfolio" class="btn btn-outline">Смотреть «До и После»</a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-value tabular">3–6 мес</span>
+              <span class="metric-label">Стойкий блеск и лёгкая укладка</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value tabular">45 мин</span>
+              <span class="metric-label">Удержание слота до подтверждения</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value tabular">1:1</span>
+              <span class="metric-label">Спокойная студия без потока</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-arch">
+            <img src="assets/hero-silk.jpg" alt="Зеркальный блеск и шелковистость волос после ухода в студии Стэйси Белл" />
+            <div class="hero-floating-card">
+              <div>
+                <strong>Настя · Стэйси Белл</strong>
+                <span>Очная диагностика волос перед каждым визитом</span>
+              </div>
+              <a href="#calculator" class="btn btn-primary btn-sm">Калькулятор</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Editorial Ticker -->
+    <div class="marquee-strip" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Кератиновое выпрямление</span>
+        <span>Ботокс для волос</span>
+        <span>Холодное восстановление</span>
+        <span>Пилинг кожи головы</span>
+        <span>Прикорневой объём</span>
+        <span>Уходовая стрижка</span>
+        <span>Кератиновое выпрямление</span>
+        <span>Ботокс для волос</span>
+        <span>Холодное восстановление</span>
+        <span>Пилинг кожи головы</span>
+        <span>Прикорневой объём</span>
+        <span>Уходовая стрижка</span>
+      </div>
+    </div>
+
+    <!-- Interactive Module 1: Before/After Museum Stage (Same Person Pixel-Locked!) -->
+    <section class="section section-dark" id="portfolio">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Реальная трансформация</span>
+          <h2>Портфолио «До и После»</h2>
+          <p>Потяните ползунок влево или вправо: на фото один и тот же человек в одном ракурсе — меняется только качество, гладкость и зеркальный блеск волос.</p>
+        </div>
+
+        <div class="pill-group reveal" id="compareTabs" style="margin-bottom: 22px;"></div>
+
+        <div class="compare-wrapper reveal">
+          <div class="compare-stage" id="compareStage" aria-label="Сравнение волос одного клиента до и после процедуры">
+            <img class="compare-img" id="compareAfterImg" src="assets/compare-after-keratin.jpg" alt="Волосы клиента после процедуры" />
+            <div class="compare-before-layer" id="compareBeforeLayer">
+              <img class="compare-img" id="compareBeforeImg" src="assets/compare-before.jpg" alt="Волосы того же клиента до процедуры" />
+            </div>
+            <span class="compare-badge before">До</span>
+            <span class="compare-badge after">После</span>
+            <div class="compare-divider" id="compareDivider"></div>
+            <button
+              type="button"
+              class="compare-handle"
+              id="compareHandle"
+              role="slider"
+              aria-label="Переместить границу сравнения До и После"
+              aria-valuemin="5"
+              aria-valuemax="95"
+              aria-valuenow="50"
+            >↔</button>
+          </div>
+
+          <div class="dark-glass-card compare-info">
+            <span class="eyebrow" id="compareCaseTag">Кейс 01 · Кератин</span>
+            <h3 id="compareCaseTitle">Зеркальный шёлк на пористых волнистых волосах</h3>
+            <p id="compareCaseDesc" style="margin: 0; color: var(--ink-on-dark-muted);">
+              Убрали пушистость и сухость по длине, запечатали кутикулу без утяжеления. Волосы сохнут вдвое быстрее и ложатся ровно просто после фена.
+            </p>
+            <div class="quiz-result-meta" id="compareCaseSpecs"></div>
+            <button type="button" class="btn btn-champagne" id="compareTryBtn">Рассчитать такую же процедуру</button>
+          </div>
+        </div>
+
+        <div class="portfolio-gallery reveal">
+          <figure class="gallery-card" style="margin: 0;">
+            <img src="assets/compare-after-keratin.jpg" alt="Кератиновое выпрямление — эффект жидкого шёлка" loading="lazy" />
+            <figcaption class="gallery-caption">
+              <strong>Кератин · По лопатки</strong>
+              <span>Зеркальная гладкость до 5 месяцев</span>
+            </figcaption>
+          </figure>
+          <figure class="gallery-card" style="margin: 0;">
+            <img src="assets/compare-after-botox.jpg" alt="Ботокс и холодное восстановление волос" loading="lazy" />
+            <figcaption class="gallery-caption">
+              <strong>Ботокс + Питание</strong>
+              <span>Плотность, мягкость и живое сияние</span>
+            </figcaption>
+          </figure>
+          <figure class="gallery-card" style="margin: 0;">
+            <img src="assets/studio-interior.jpg" alt="Интерьер студии Стэйси Белл в Санкт-Петербурге" loading="lazy" />
+            <figcaption class="gallery-caption">
+              <strong>Светлая студия в СПб</strong>
+              <span>Премиальные составы и спокойная атмосфера</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Module 2: 3-Question Smart Quiz -->
+    <section class="section section-cashmere" id="quiz">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Диагностика за 30 секунд</span>
+          <h2>Умный подбор процедуры</h2>
+          <p>Ответьте на 3 коротких вопроса — система подскажет оптимальный уход под состояние ваших волос и сразу передаст выбор в калькулятор.</p>
+        </div>
+
+        <div class="luxe-card quiz-shell reveal" id="quizContainer"></div>
+      </div>
+    </section>
+
+    <!-- Interactive Module 3: Price & Duration Calculator -->
+    <section class="section" id="calculator">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Честный расчёт заранее</span>
+          <h2>Калькулятор цены и времени</h2>
+          <p>Выберите направление, длину и густоту волос — итоговая стоимость и длительность сеанса обновляются мгновенно.</p>
+        </div>
+
+        <div class="calc-layout reveal">
+          <div class="luxe-card calc-controls">
+            <div>
+              <span class="control-label">1. Направление процедуры</span>
+              <div class="pill-group" id="calcCategoryPills"></div>
+            </div>
+
+            <div id="calcLengthSection">
+              <span class="control-label">2. Длина волос</span>
+              <div class="length-grid" id="calcLengthGrid"></div>
+            </div>
+
+            <div>
+              <span class="control-label">3. Густота и объём</span>
+              <div class="pill-group" id="calcDensityPills">
+                <button type="button" class="pill-btn active" data-density="standard">Стандартная густота</button>
+                <button type="button" class="pill-btn" data-density="thick">Густые / плотные (+10%)</button>
+              </div>
+            </div>
+
+            <div>
+              <span class="control-label">4. Добавить к визиту (по желанию)</span>
+              <div class="addon-list" id="calcAddonList"></div>
+            </div>
+          </div>
+
+          <aside class="calc-summary">
+            <div>
+              <span class="eyebrow">Ваш расчёт</span>
+              <h3 id="calcTitle" style="margin-top: 10px; color: var(--ink-on-dark);">Кератин / Ботокс</h3>
+              <p id="calcSubtitle" style="color: var(--ink-on-dark-muted); margin: 6px 0 18px; font-size: 0.92rem;">По лопатки · Стандартная густота</p>
+
+              <div class="calc-price-big tabular" id="calcTotalPrice">6 900 ₽</div>
+              <div style="color: var(--accent-champagne); font-size: 0.9rem; margin-top: 8px;" id="calcTotalTime">
+                Ориентировочно 3 ч (+15 мин буфер)
+              </div>
+            </div>
+
+            <div class="calc-breakdown" id="calcBreakdown"></div>
+
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+              <button type="button" class="btn btn-champagne btn-block" id="calcBookBtn">
+                Выбрать свободное окно
+              </button>
+              <span style="font-size: 0.78rem; color: var(--ink-on-dark-muted); text-align: center;">
+                Точная формула состава подбирается после очной диагностики волос на месте.
+              </span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Full Service Menu (Synced with STASY BELL OS) -->
+    <section class="section section-cashmere" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Актуальное меню</span>
+          <h2>Услуги и прайс-лист</h2>
+          <p id="servicesSyncNote">Каталог синхронизирован с системой STASY BELL OS. Нажмите на любую услугу, чтобы сразу перейти к свободным окнам.</p>
+        </div>
+
+        <div class="pill-group reveal" id="servicesFilterPills" style="margin-bottom: 22px;"></div>
+        <div class="services-grid reveal" id="servicesGrid"></div>
+      </div>
+    </section>
+
+    <!-- Interactive Module 4: Live Slot Picker & Unified Booking -->
+    <section class="section" id="booking">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Прямая запись без посредников</span>
+          <h2>Выбор свободного окна</h2>
+          <p>Горизонт записи — ближайшие 30 дней по московскому времени (Санкт-Петербург). Слот учитывает длительность процедуры и 15-минутный буфер.</p>
+        </div>
+
+        <div class="booking-grid reveal">
+          <!-- Left: Date & Slot Selection -->
+          <div class="luxe-card booking-panel">
+            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px;">
+              <div>
+                <span class="control-label" style="margin-bottom: 4px;">Шаг 1 · Выбранная услуга</span>
+                <strong id="bookingServiceSummary" style="font-size: 1.05rem;">Кератин / Ботокс · По лопатки</strong>
+                <div id="bookingServiceMeta" style="font-size: 0.85rem; color: var(--accent-bronze-dark); font-weight: 600;">6 900 ₽ · 180 мин + 15 мин буфер</div>
+              </div>
+              <a href="#calculator" class="btn btn-outline btn-sm">Изменить</a>
+            </div>
+
+            <div>
+              <span class="control-label">Шаг 2 · Дата визита (30 дней, СПб / МСК)</span>
+              <div class="date-rail" id="bookingDateRail" role="listbox" aria-label="Доступные даты"></div>
+            </div>
+
+            <div>
+              <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px;">
+                <span class="control-label" style="margin: 0;">Шаг 3 · Свободное время старта</span>
+                <span id="slotsStatusHint" style="font-size: 0.8rem; color: var(--ink-muted);"></span>
+              </div>
+              <div class="slots-grid" id="bookingSlotsGrid"></div>
+            </div>
+          </div>
+
+          <!-- Right: Client Details & Confirmation -->
+          <div class="luxe-card booking-panel" id="bookingFormPanel">
+            <form id="bookingForm" novalidate style="display: flex; flex-direction: column; gap: 14px;">
+              <div>
+                <span class="control-label" style="margin-bottom: 4px;">Шаг 4 · Контакты и подтверждение</span>
+                <p style="margin: 0; font-size: 0.84rem; color: var(--ink-secondary);">
+                  После отправки слот удерживается 45 минут до вашего подтверждения в Telegram или ВКонтакте.
+                </p>
+              </div>
+
+              <div class="field">
+                <label for="clientName">Ваше имя *</label>
+                <input id="clientName" name="clientName" type="text" required placeholder="Например, Анна" autocomplete="given-name" />
+              </div>
+
+              <div class="field">
+                <label for="clientContact">Телефон или @username в Telegram / VK *</label>
+                <input id="clientContact" name="clientContact" type="text" required placeholder="+7 9XX XXX-XX-XX или @username" autocomplete="tel" />
+              </div>
+
+              <div class="field">
+                <label>Удобный канал подтверждения</label>
+                <div class="pill-group" id="channelPills">
+                  <button type="button" class="pill-btn active" data-channel="telegram">Telegram</button>
+                  <button type="button" class="pill-btn" data-channel="vk">ВКонтакте</button>
+                  <button type="button" class="pill-btn" data-channel="phone">Звонок</button>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="clientComment">Комментарий о волосах (необязательно)</label>
+                <textarea id="clientComment" name="clientComment" rows="2" placeholder="Окрашивание, блонд, пожелания по составу..."></textarea>
+              </div>
+
+              <label class="consent-row">
+                <input type="checkbox" id="pdConsent" />
+                <span>
+                  Я соглашаюсь с <a href="policy.html">Политикой обработки персональных данных</a> и
+                  <a href="offer.html">Публичной офертой</a> для оформления записи.
+                </span>
+              </label>
+
+              <div id="bookingError" style="display: none; color: var(--danger); font-size: 0.86rem; font-weight: 600;"></div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="bookingSubmitBtn">
+                Забронировать слот
+              </button>
+
+              <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; padding-top: 4px;">
+                <a class="btn btn-outline btn-sm" href="https://t.me/+79145711243" target="_blank" rel="noopener">Написать в Telegram</a>
+                <a class="btn btn-outline btn-sm" href="tel:+79145711243">Позвонить мастеру</a>
+              </div>
+            </form>
+
+            <div id="bookingResultContainer" style="display: none;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Studio & Master -->
+    <section class="section section-cashmere" id="about">
+      <div class="container about-grid reveal">
+        <div class="about-photo">
+          <img src="assets/studio-interior.jpg" alt="Светлый интерьер студии Стэйси Белл" loading="lazy" />
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <span class="eyebrow">О мастере и философии</span>
+          <h2>Стэйси Белл — бережная эстетика волос</h2>
+          <p style="margin: 0; color: var(--ink-secondary);">
+            Меня зовут Настя. Я работаю с волосами персонально, без потока и шаблонных составов: перед процедурой всегда оцениваю степень повреждения, пористость и историю окрашиваний, чтобы подобрать мягкую и эффективную формулу.
+          </p>
+          <p style="margin: 0; color: var(--ink-secondary);">
+            В студии царит светлая камерная атмосфера, профессиональная вытяжка, ароматный чай и чёткое понимание домашнего ухода, чтобы зеркальный результат радовал вас месяцами.
+          </p>
+          <div class="quiz-result-meta">
+            <span class="meta-chip">Сертифицированные составы</span>
+            <span class="meta-chip">Смывка в день процедуры</span>
+            <span class="meta-chip">Памятка домашнего ухода</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How Booking Works -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Просто и прозрачно</span>
+          <h2>Как проходит запись</h2>
+        </div>
+
+        <div class="steps-grid reveal">
+          <div class="luxe-card step-card">
+            <span class="step-num">01</span>
+            <h3>Подбор и расчёт</h3>
+            <p style="margin: 0; color: var(--ink-secondary); font-size: 0.9rem;">Выберите процедуру в квизе или калькуляторе, чтобы сразу знать ориентир по цене и длительности.</p>
+          </div>
+          <div class="luxe-card step-card">
+            <span class="step-num">02</span>
+            <h3>Выбор окна</h3>
+            <p style="margin: 0; color: var(--ink-secondary); font-size: 0.9rem;">Укажите удобный день и время из свободных интервалов на ближайшие 30 дней.</p>
+          </div>
+          <div class="luxe-card step-card">
+            <span class="step-num">03</span>
+            <h3>Подтверждение в TG / VK</h3>
+            <p style="margin: 0; color: var(--ink-secondary); font-size: 0.9rem;">Слот удерживается 45 минут — подтвердите визит в одном сообщении без регистраций и паролей.</p>
+          </div>
+          <div class="luxe-card step-card">
+            <span class="step-num">04</span>
+            <h3>Идеальный результат</h3>
+            <p style="margin: 0; color: var(--ink-secondary); font-size: 0.9rem;">Приходите в студию на ул. Ольги Берггольц, 9 к.2 — оплата только по факту после процедуры.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews & FAQ -->
+    <section class="section section-cashmere" id="reviews">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Впечатления клиенток</span>
+          <h2>Отзывы о студии</h2>
+        </div>
+
+        <div class="reviews-grid reveal" style="margin-bottom: 56px;">
+          <article class="luxe-card review-card">
+            <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <p style="margin: 0; color: var(--ink-primary);">«Делала кератин на пористые волосы до лопаток — впервые за годы волосы блестят как зеркало и не пушатся даже в питерскую влажность!»</p>
+            <span style="font-size: 0.84rem; color: var(--accent-bronze-dark); font-weight: 600;">Екатерина · Кератин</span>
+          </article>
+          <article class="luxe-card review-card">
+            <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <p style="margin: 0; color: var(--ink-primary);">«Настя очень аккуратно подошла к моему блонду: вместо жёсткого выпрямления сделали комбо с холодным восстановлением. Волосы живые, плотные и шелковистые.»</p>
+            <span style="font-size: 0.84rem; color: var(--accent-bronze-dark); font-weight: 600;">Мария · Здоровье для волос</span>
+          </article>
+          <article class="luxe-card review-card">
+            <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <p style="margin: 0; color: var(--ink-primary);">«Очень удобно, что сразу понятна цена и время, а в студии невероятно уютно и спокойно. Хожу уже четвёртый раз и всегда ухожу с ощущением обновления.»</p>
+            <span style="font-size: 0.84rem; color: var(--accent-bronze-dark); font-weight: 600;">Алина · Ботокс + пилинг</span>
+          </article>
+        </div>
+
+        <div class="section-header reveal">
+          <span class="eyebrow">Частые вопросы</span>
+          <h2>Ответы перед визитом</h2>
+        </div>
+
+        <div class="faq-list reveal" id="faqList">
+          <div class="faq-item open">
+            <button type="button" class="faq-trigger" aria-expanded="true">
+              <span>Можно ли делать кератин или ботокс на осветлённые волосы?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-body">
+              Да, но только после диагностики эластичности. Для чувствительного блонда мы используем деликатные питательные формулы ботокса или курс холодного восстановления, чтобы укрепить волос без риска ломкости.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>Нужна ли предоплата при онлайн-записи?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-body">
+              Нет, онлайн-оплат на сайте нет. Вы оплачиваете процедуру напрямую мастеру по факту визита в студии.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>Сколько держится эффект и когда можно мыть голову?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-body">
+              Состав смывается прямо в студии, поэтому вы уходите с финальным чистым результатом. При правильном бессульфатном уходе кератин держится 4–6 месяцев, ботокс — 2–4 месяца.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>Как перенести или отменить запись?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-body">
+              Просто напишите Насте в Telegram или ВКонтакте, либо позвоните по телефону — желательно минимум за 24 часа, чтобы мы смогли предложить окно другой клиентке.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="section" id="contacts">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Локация и связь</span>
+          <h2>Ждём вас в Санкт-Петербурге</h2>
+        </div>
+
+        <div class="contacts-grid reveal">
+          <div class="luxe-card contact-card">
+            <div>
+              <span class="control-label" style="margin-bottom: 4px;">Адрес студии</span>
+              <h3 style="font-size: 1.65rem;">Санкт-Петербург, ул. Ольги Берггольц, д. 9, корп. 2</h3>
+              <p style="margin: 6px 0 0; color: var(--ink-secondary);">Приём ведётся строго по предварительной записи · Часовой пояс: МСК (UTC+3)</p>
+            </div>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+              <a class="btn btn-primary" href="https://yandex.ru/maps/?text=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%2C%20%D1%83%D0%BB.%20%D0%9E%D0%BB%D1%8C%D0%B3%D0%B8%20%D0%91%D0%B5%D1%80%D0%B3%D0%B3%D0%BE%D0%BB%D1%8C%D1%86%2C%209%20%D0%BA%D0%BE%D1%80%D0%BF.%202" target="_blank" rel="noopener">
+                Открыть в Яндекс Картах
+              </a>
+              <a class="btn btn-outline" href="tel:+79145711243">+7 (914) 571-12-43</a>
+            </div>
+          </div>
+
+          <div class="luxe-card contact-card">
+            <span class="control-label" style="margin-bottom: 4px;">Мессенджеры и быстрая связь</span>
+            <p style="margin: 0; color: var(--ink-secondary); font-size: 0.92rem;">
+              Пришлите фото волос при дневном свете — Настя подскажет ориентир по процедуре и длительности ещё до визита.
+            </p>
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+              <a class="btn btn-outline btn-block" href="https://t.me/+79145711243" target="_blank" rel="noopener">Telegram · Написать мастеру</a>
+              <a class="btn btn-outline btn-block" href="https://vk.com/" target="_blank" rel="noopener" id="vkContactLink">ВКонтакте · Сообщество студии</a>
+              <a class="btn btn-primary btn-block" href="#booking">Выбрать свободное окно онлайн</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong style="color: var(--ink-on-dark); font-family: var(--font-display); font-size: 1.2rem;">Стэйси Белл</strong>
+        <div>Санкт-Петербург, ул. Ольги Берггольц, д. 9, корп. 2 · Экосистема STASY BELL OS 2.0</div>
+      </div>
+      <div class="footer-links">
+        <a href="offer.html">Публичная оферта</a>
+        <a href="policy.html">Политика ПДн</a>
+        <button type="button" id="openApiConfigBtn">API STASY BELL OS</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky Action Bar -->
+  <div class="sticky-mobile-cta" role="region" aria-label="Быстрые действия">
+    <a href="#calculator" class="btn btn-outline btn-sm">Калькулятор</a>
+    <a href="#booking" class="btn btn-primary btn-sm">Выбрать окно</a>
+  </div>
+
+  <!-- Optional API Connection Settings Modal for Owner -->
+  <div class="modal-backdrop" id="apiConfigModal" role="dialog" aria-modal="true" aria-labelledby="apiModalTitle">
+    <div class="luxe-card modal-box">
+      <h3 id="apiModalTitle">Подключение к API STASY BELL OS</h3>
+      <p style="margin: 0; font-size: 0.86rem; color: var(--ink-secondary);">
+        Укажите HTTPS-адрес вашего FastAPI-сервера STASY BELL OS (например, <code>https://api.stasybell.ru</code>) и ссылки на Telegram-бота / VK-сообщество. Оставьте пустым для Демо-режима.
+      </p>
+      <div class="field">
+        <label for="cfgApiUrl">URL сервера API (HTTPS)</label>
+        <input id="cfgApiUrl" type="url" placeholder="https://api.example.com" />
+      </div>
+      <div class="field">
+        <label for="cfgTgBot">Ссылка Telegram (бот или контакт)</label>
+        <input id="cfgTgBot" type="url" placeholder="https://t.me/+79145711243" />
+      </div>
+      <div class="field">
+        <label for="cfgVkUrl">Ссылка сообщества ВКонтакте</label>
+        <input id="cfgVkUrl" type="url" placeholder="https://vk.com/stasybell" />
+      </div>
+      <div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 4px;">
+        <button type="button" class="btn btn-outline btn-sm" id="closeApiConfigBtn">Закрыть</button>
+        <button type="button" class="btn btn-primary btn-sm" id="saveApiConfigBtn">Сохранить и обновить</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

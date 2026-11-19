@@ -1,0 +1,8 @@
+{
+  "name": "Stasy Bell OS 2.0",
+  "description": "Нативное Android-приложение мастера Насти для управления расписанием, клиентами, фактической кассой, складом и отчётностью студии Stasy Bell.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

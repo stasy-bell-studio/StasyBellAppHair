@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stasy Bell OS 2.0</string>
+    <string name="nav_today">Главная</string>
+    <string name="nav_calendar">Календарь</string>
+    <string name="nav_clients">Клиенты</string>
+    <string name="nav_finance">Финансы</string>
+    <string name="nav_more">Ещё</string>
+    <string name="greeting_owner">Добрый день, Настя</string>
+    <string name="studio_address">Санкт-Петербург, ул. Ольги Берггольц, д. 9, корп. 2</string>
+    <string name="demo_badge">Демо</string>
+    <string name="action_new_appointment">+ Запись</string>
+    <string name="action_income">Доход</string>
+    <string name="action_expense">Расход</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="error_slot_conflict">Время уже занято</string>
+    <string name="error_day_closed">Рабочий день закрыт</string>
+    <string name="error_month_closed">Месяц закрыт</string>
+    <string name="error_stock_low">На складе недостаточно материала</string>
+    <string name="error_no_connection">Не удалось сохранить: нет связи с сервером</string>
+</resources>
